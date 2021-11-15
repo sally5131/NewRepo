@@ -17,6 +17,14 @@
             float: left;
         }
 
+        #pos {
+            margin-left: 50px;
+        }
+
+        #pos2 {
+            margin-left: 80px;
+        }
+
         #content {
             width: 80%;
             background-color: lightyellow;
@@ -39,14 +47,19 @@
     <div id="wrapper">
         <div id="header"> <h1>My Blog Page</h1> </div>
         <div id="nav">
-            <h2 style="margin-left:20px">Links</h2>
-            <ul>
-                <li><a href="https://www.w3.org/">W3C 사이트</a></li>
-                <li><a href="https://www.mozilla.org/ko/" style="color : red">MOZILLA</a></li>
-                <li><a href="https://htmldog.com/">HTML Dogs</a></li>
-            </ul>
-            <img src="hong.jpg" width="100" height="100">
-            <p style="margin-left: 20px">홍길동</p>
+            <section id="pos">
+                <h2>Links</h2>
+                <ul>
+                    <li><a href="https://www.w3.org/">W3C 사이트</a></li>
+                    <li><a href="https://www.mozilla.org/ko/" style="color : red">MOZILLA</a></li>
+                    <li><a href="https://htmldog.com/">HTML Dogs</a></li>
+                </ul>
+                
+            </section>
+            <section id="pos2">
+                <img src="hong.jpg" width="100" height="100">
+            </section>
+            <p style="margin-left:100px">홍길동</p>
         </div>
         <div id="content">
             <h3 style="margin-left:20px">Semantic Tags</h3>
